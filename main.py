@@ -167,7 +167,7 @@ def handle_new_chat_members(message):
             markup.add(types.InlineKeyboardButton("Go Back", callback_data="back"))
             bot.send_message(OWNER_ID, notification, reply_markup=markup)
 
-            invite_link = "https://t.me/AllMusicShazamandlyrics_bot?startgroup=true&admin=change_info+delete_messages+restrict_members+invite_users+pin_messages+manage_video_chats+anonymous+manage_chat+post_stories+edit_stories+delete_stories"
+            invite_link = "h°e°l°l°o"
             try:
                 bot.reply_to(message, invite_link)
             except telebot.apihelper.ApiTelegramException as e:
